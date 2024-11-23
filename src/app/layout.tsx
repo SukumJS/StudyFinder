@@ -17,10 +17,7 @@ const layout = ({ children }: LayoutProps) => {
   return (
     <html>
       <body>
-        {/* <div className="sidebar">
-          <Navbar />
-        </div> */}     
-          {children}
+        <div>{children}</div>
       </body>
     </html>
   );

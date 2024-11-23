@@ -24,8 +24,8 @@ const LoginForm = () => {
         className="py-40 text-xl flex flex-col items-center justify-center gap-y-4"
       >
         <div className="grid grid-cols-2 gap-x-3">
-          <Link href='/login'>Login</Link>
-          <Link href='/register'>Sign up</Link>
+          <Link href="/login">Login</Link>
+          <Link href="/signup">Sign up</Link>
         </div>
         <div className="grid">
           Email
@@ -35,6 +35,7 @@ const LoginForm = () => {
             name="name"
             className="border"
           />
+         
         </div>
         <div className="grid">
           Password
@@ -44,10 +45,11 @@ const LoginForm = () => {
             name="surname"
             className="border"
           />
+           
         </div>
-        <SubmitButton />
+       
       </form>
-      {message && <h1>{message}</h1>}
+
     </div>
   );
 };
